@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "createdAt": "2026-11-15T08:24:00.646Z",
+        "reason": "user confirmed: approved TERANG Figma specifies Inter for labels, body copy, and buttons."
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "homeLabel": "Home",
+  "hero": {
+    "eyebrow": "FULL-SERVICE EVENT ORGANIZER",
+    "bodyDesktop": "From creative direction and event management to technical production, we bring every element together to create exceptional event experiences.",
+    "bodyResponsive": "Creative direction, event management, and production — brought together by one team.",
+    "workCta": "VIEW OUR WORK",
+    "contactCta": "START A PROJECT",
+    "scrollCue": "SCROLL TO EXPLORE ↓",
+    "imageAlt": "Temporary reference photograph of a concert stage, beams of light, haze, and audience.",
+    "mediaLabel": "TERANG / CINEMATIC STAGE / BEAMS / AUDIENCE / HAZE",
+    "annotationDesktop": "LIGHT / PEOPLE / MOVEMENT",
+    "annotationTablet": "LIGHT / PEOPLE / MOVEMENT",
+    "annotationMobile": "LIGHT / PEOPLE",
+    "captionDesktop": "IMAGE PLACEHOLDER / REPLACE WITH APPROVED TERANG PHOTOGRAPHY",
+    "captionResponsive": "TEMPORARY IMAGE — REPLACE WITH APPROVED TERANG HERO PHOTOGRAPHY"
+  },
+  "navigation": {
+    "label": "Primary navigation",
+    "menuHeading": "Navigation",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "items": [
+      { "id": "work", "label": "Work" },
+      { "id": "services", "label": "Services" },
+      { "id": "about", "label": "About" },
+      { "id": "contact", "label": "Contact" }
+    ],
+    "tagline": "MADE FOR THE MOMENT."
+  },
+  "language": {
+    "label": "Language",
+    "switchTo": "Switch language to"
+  }
+}

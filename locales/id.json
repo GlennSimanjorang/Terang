@@ -1,0 +1,35 @@
+{
+  "homeLabel": "Beranda",
+  "hero": {
+    "eyebrow": "PENYELENGGARA ACARA TERPADU",
+    "bodyDesktop": "Dari arahan kreatif dan manajemen acara hingga produksi teknis, kami menyatukan setiap elemen untuk menghadirkan pengalaman acara yang istimewa.",
+    "bodyResponsive": "Arahan kreatif, manajemen acara, dan produksi — terintegrasi dalam satu tim.",
+    "workCta": "LIHAT KARYA KAMI",
+    "contactCta": "MULAI PROYEK",
+    "scrollCue": "GULIR UNTUK MENJELAJAHI ↓",
+    "imageAlt": "Foto referensi sementara panggung konser, berkas cahaya, kabut, dan audiens.",
+    "mediaLabel": "TERANG / PANGGUNG KONSER / BERKAS CAHAYA / AUDIENS / KABUT",
+    "annotationDesktop": "CAHAYA / MANUSIA / GERAK",
+    "annotationTablet": "CAHAYA / MANUSIA / GERAK",
+    "annotationMobile": "CAHAYA / MANUSIA",
+    "captionDesktop": "PLACEHOLDER FOTO / GANTI DENGAN FOTO RESMI TERANG",
+    "captionResponsive": "FOTO SEMENTARA — GANTI DENGAN FOTO HERO RESMI TERANG"
+  },
+  "navigation": {
+    "label": "Navigasi utama",
+    "menuHeading": "Navigasi",
+    "openMenu": "Buka menu navigasi",
+    "closeMenu": "Tutup menu navigasi",
+    "items": [
+      { "id": "work", "label": "Karya" },
+      { "id": "services", "label": "Layanan" },
+      { "id": "about", "label": "Tentang" },
+      { "id": "contact", "label": "Kontak" }
+    ],
+    "tagline": "DICIPTAKAN UNTUK SETIAP MOMEN."
+  },
+  "language": {
+    "label": "Bahasa",
+    "switchTo": "Ganti bahasa ke"
+  }
+}
