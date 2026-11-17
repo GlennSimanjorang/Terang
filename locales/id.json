@@ -66,6 +66,76 @@
       }
     ]
   },
+  "selectedProjects": {
+    "eyebrow": "04 / PROYEK PILIHAN",
+    "heading": "PENGALAMAN YANG KAMI HADIRKAN.",
+    "viewAll": "LIHAT SEMUA PROYEK",
+    "items": [
+      { "title": "KONSER LIVE / PRODUKSI PANGGUNG", "category": "ACARA LIVE / DESAIN PANGGUNG / PENCAHAYAAN", "annotation": "CAHAYA / MANUSIA / MOMEN", "imageAlt": "Panggung konser hitam putih dengan sorot cahaya dan penonton." },
+      { "title": "ACARA KORPORAT / PENGALAMAN MEREK", "category": "KORPORAT / DESAIN ACARA / PRODUKSI", "annotation": "MEREK DALAM GERAK", "imageAlt": "Audiens menghadiri acara korporat di sebuah panggung." },
+      { "title": "BACKSTAGE / TIM TEKNIS", "category": "PRODUKSI / KRU / OPERASIONAL LAPANGAN", "annotation": "TIM / KETELITIAN", "imageAlt": "Anggota kru teknis bekerja di belakang panggung." },
+      { "title": "PRODUKSI TEKNIS", "category": "RIGGING / PENCAHAYAAN / AUDIO-VISUAL", "annotation": "", "imageAlt": "Rig panggung dengan perangkat pencahayaan dan audio-visual." }
+    ]
+  },
+  "capabilities": {
+    "eyebrow": "DARI IDE PERTAMA HINGGA CUE TERAKHIR",
+    "headingFirstLine": "DARI KONSEP",
+    "headingSecondLine": "HINGGA ACARA BERLANGSUNG.",
+    "support": "Pendekatan terpadu yang menyatukan setiap tahapan — dari ide pertama hingga pelaksanaan akhir.",
+    "annotation": "DARI RENCANA KE PANGGUNG",
+    "imageAlt": "Peralatan panggung, kotak produksi, dan kabel tersusun di area kerja dalam foto hitam putih.",
+    "stages": [
+      { "title": "ARAHAN KREATIF", "description": "Merumuskan visi, cerita, dan pengalaman." },
+      { "title": "PERENCANAAN & STRATEGI", "description": "Menyusun rencana, anggaran, dan alur produksi." },
+      { "title": "MANAJEMEN ACARA", "description": "Menyatukan tim, mitra, dan seluruh kebutuhan acara." },
+      { "title": "PRODUKSI & LOGISTIK", "description": "Mengatur pembangunan, jadwal, kru, dan logistik." },
+      { "title": "EKSEKUSI TEKNIS", "description": "Menangani pencahayaan, audio, video, dan rigging." },
+      { "title": "OPERASIONAL LAPANGAN", "description": "Menjalankan acara dan mengelola setiap cue secara langsung." }
+    ],
+    "closing": "SATU MITRA. ENAM TAHAP TERHUBUNG. ARAHAN KREATIF, PERENCANAAN, DAN PRODUKSI TEKNIS — BERJALAN SEBAGAI SATU TIM."
+  },
+  "whyTerang": {
+    "eyebrow": "MENGAPA TERANG / KEUNGGULAN KAMI",
+    "heading": "PRESISI. KREATIVITAS. KOLABORASI.",
+    "columns": [
+      { "category": "GAGASAN", "title": "PEMIKIRAN KREATIF", "description": "Kami melihat lebih jauh dari sekadar brief untuk mengembangkan ide yang relevan, terhubung dengan audiens, dan menciptakan pengalaman bermakna.", "metadata": "KONSEP / CERITA / PENGALAMAN" },
+      { "category": "KEAHLIAN", "title": "KEUNGGULAN TEKNIS", "description": "Kami menggabungkan keahlian teknis, perencanaan matang, dan perhatian terhadap detail untuk mewujudkan setiap visi kreatif.", "metadata": "PERENCANAAN / ENGINEERING / PRESISI" },
+      { "category": "PELAKSANAAN", "title": "EKSEKUSI TERPADU", "description": "Tim terpadu kami mengoordinasikan kru, mitra, dan jadwal agar setiap elemen berjalan selaras.", "metadata": "KOORDINASI / KRU / OPERASIONAL" }
+    ]
+  },
+  "clientsTrust": {
+    "eyebrow": "KLIEN & KEPERCAYAAN",
+    "heading": "KEPERCAYAAN DIBANGUN MELALUI HASIL KERJA.",
+    "introduction": "Setiap kolaborasi adalah kesempatan untuk menghadirkan sesuatu yang bermakna. Kami menghargai kepercayaan dari setiap klien dan mitra yang mewujudkannya bersama kami.",
+    "logosLabel": "MITRA KLIEN / LOGO YANG TELAH DISETUJUI",
+    "logos": ["LOGO KLIEN 01", "LOGO KLIEN 02", "LOGO KLIEN 03", "LOGO KLIEN 04", "LOGO KLIEN 05"],
+    "quoteLabel": "[TESTIMONI KLIEN YANG DISETUJUI]",
+    "quote": "[TESTIMONI KLIEN YANG DISETUJUI]",
+    "attribution": "[NAMA KLIEN] / [JABATAN] / [PROYEK]",
+    "note": "Logo klien dan testimoni hanya akan ditampilkan setelah mendapat persetujuan."
+  },
+  "contactCtaSection": {
+    "imageCaption": "FOTO SEMENTARA — GANTI DENGAN FOTO ACARA RESMI",
+    "eyebrow": "PUNYA VISI? WUJUDKAN BERSAMA.",
+    "headingLine1": "PUNYA VISI?",
+    "headingLine2": "WUJUDKAN BERSAMA.",
+    "description": "Ceritakan ide Anda. Mari wujudkan acara berikutnya bersama kami.",
+    "annotation": "MULAI DARI VISI"
+  },
+  "footer": {
+    "navigationLabel": "Navigasi footer",
+    "navigation": ["KARYA", "LAYANAN", "TENTANG", "KONTAK"],
+    "contactTitle": "HUBUNGI KAMI",
+    "contactDetails": ["[EMAIL RESMI]", "[NOMOR TELEPON / WHATSAPP RESMI]", "[LOKASI RESMI]"],
+    "socialLabel": "Media sosial",
+    "socialLinks": [
+      { "label": "INSTAGRAM", "url": "" },
+      { "label": "LINKEDIN", "url": "" },
+      { "label": "YOUTUBE", "url": "" }
+    ],
+    "copyright": "© TERANG. HAK CIPTA DILINDUNGI.",
+    "tagline": "WE SHAPE THE LIGHT."
+  },
   "navigation": {
     "label": "Navigasi utama",
     "menuHeading": "Navigasi",

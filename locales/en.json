@@ -66,6 +66,76 @@
       }
     ]
   },
+  "selectedProjects": {
+    "eyebrow": "04 / SELECTED PROJECTS",
+    "heading": "EXPERIENCES WE BRING TO LIFE.",
+    "viewAll": "VIEW ALL PROJECTS",
+    "items": [
+      { "title": "LIVE CONCERT / STAGE PRODUCTION", "category": "LIVE EVENTS / STAGE DESIGN / LIGHTING", "annotation": "LIGHT / PEOPLE / MOMENT", "imageAlt": "Black and white concert stage with beams of light and an audience." },
+      { "title": "CORPORATE EVENT / BRAND EXPERIENCE", "category": "CORPORATE / EVENT DESIGN / PRODUCTION", "annotation": "BRANDS IN MOTION", "imageAlt": "Audience attending a corporate event on stage." },
+      { "title": "BACKSTAGE / TECHNICAL TEAM", "category": "PRODUCTION / CREW / FIELD OPERATIONS", "annotation": "TEAM / PRECISION", "imageAlt": "Technical crew member working backstage." },
+      { "title": "TECHNICAL PRODUCTION", "category": "RIGGING / LIGHTING / AUDIO-VISUAL", "annotation": "", "imageAlt": "Stage rig with lighting and audio-visual equipment." }
+    ]
+  },
+  "capabilities": {
+    "eyebrow": "FROM FIRST IDEA TO FINAL CUE",
+    "headingFirstLine": "FROM CONCEPT",
+    "headingSecondLine": "TO LIVE EVENT.",
+    "support": "An integrated approach connecting every stage — from the first idea to final delivery.",
+    "annotation": "FROM PLAN TO STAGE",
+    "imageAlt": "Stage equipment, production cases, and cables arranged in a black and white work area.",
+    "stages": [
+      { "title": "CREATIVE DIRECTION", "description": "Define the vision, story, and experience." },
+      { "title": "PLANNING & STRATEGY", "description": "Build the plan, budget, and production flow." },
+      { "title": "EVENT MANAGEMENT", "description": "Align teams, partners, and event needs." },
+      { "title": "PRODUCTION & LOGISTICS", "description": "Coordinate the build, schedule, crew, and logistics." },
+      { "title": "TECHNICAL EXECUTION", "description": "Deliver lighting, audio, video, and rigging." },
+      { "title": "FIELD OPERATIONS", "description": "Run the event and manage every cue live." }
+    ],
+    "closing": "ONE PARTNER. SIX CONNECTED STAGES. CREATIVE DIRECTION, PLANNING, AND TECHNICAL PRODUCTION — WORKING AS ONE TEAM."
+  },
+  "whyTerang": {
+    "eyebrow": "WHY TERANG / OUR ADVANTAGES",
+    "heading": "PRECISION. CREATIVITY. COLLABORATION.",
+    "columns": [
+      { "category": "IDEAS", "title": "CREATIVE THINKING", "description": "We look beyond the brief to develop ideas that feel relevant, connect with audiences, and create meaningful experiences.", "metadata": "CONCEPT / STORY / EXPERIENCE" },
+      { "category": "EXPERTISE", "title": "TECHNICAL EXCELLENCE", "description": "We combine technical expertise, thoughtful planning, and attention to detail to bring every creative vision to life.", "metadata": "PLANNING / ENGINEERING / PRECISION" },
+      { "category": "DELIVERY", "title": "INTEGRATED EXECUTION", "description": "Our integrated team coordinates crews, partners, and schedules so every element works in sync.", "metadata": "COORDINATION / CREW / OPERATIONS" }
+    ]
+  },
+  "clientsTrust": {
+    "eyebrow": "CLIENTS & TRUST",
+    "heading": "TRUST IS BUILT THROUGH THE WORK.",
+    "introduction": "Every collaboration is an opportunity to create something meaningful. We value the trust of every client and partner who brings it to life with us.",
+    "logosLabel": "CLIENT PARTNERS / APPROVED LOGOS",
+    "logos": ["CLIENT LOGO 01", "CLIENT LOGO 02", "CLIENT LOGO 03", "CLIENT LOGO 04", "CLIENT LOGO 05"],
+    "quoteLabel": "[APPROVED CLIENT TESTIMONIAL]",
+    "quote": "[APPROVED CLIENT TESTIMONIAL]",
+    "attribution": "[CLIENT NAME] / [TITLE] / [PROJECT]",
+    "note": "Client logos and testimonials are shown only after approval."
+  },
+  "contactCtaSection": {
+    "imageCaption": "TEMPORARY IMAGE — REPLACE WITH APPROVED EVENT PHOTOGRAPHY",
+    "eyebrow": "HAVE A VISION? LET'S MAKE IT HAPPEN.",
+    "headingLine1": "HAVE A VISION?",
+    "headingLine2": "LET'S MAKE IT HAPPEN.",
+    "description": "Tell us your idea. Let's bring your next event to life together.",
+    "annotation": "START WITH A VISION"
+  },
+  "footer": {
+    "navigationLabel": "Footer navigation",
+    "navigation": ["WORK", "SERVICES", "ABOUT", "CONTACT"],
+    "contactTitle": "CONTACT US",
+    "contactDetails": ["[OFFICIAL EMAIL]", "[OFFICIAL PHONE / WHATSAPP]", "[OFFICIAL LOCATION]"],
+    "socialLabel": "Social media",
+    "socialLinks": [
+      { "label": "INSTAGRAM", "url": "" },
+      { "label": "LINKEDIN", "url": "" },
+      { "label": "YOUTUBE", "url": "" }
+    ],
+    "copyright": "© TERANG. ALL RIGHTS RESERVED.",
+    "tagline": "WE SHAPE THE LIGHT."
+  },
   "navigation": {
     "label": "Primary navigation",
     "menuHeading": "Navigation",
