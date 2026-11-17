@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { IntroductionImage } from "@/sections/IntroductionImage";
 import type { getDictionary } from "@/lib/i18n";
 import type { Locale } from "@/types/i18n";
 
@@ -29,20 +29,7 @@ export function Introduction({ locale, content }: IntroductionProps) {
         <p className="introduction__body introduction__body--mobile">
           {content.bodyMobile}
         </p>
-        <figure className="introduction__image">
-          <Image
-            src="/assets/introduction/introduction-production-figma.png"
-            alt=""
-            width={1280}
-            height={1024}
-            sizes="(max-width: 480px) calc(100vw - 40px), (max-width: 1100px) calc(100vw - 64px), 560px"
-            quality={80}
-            loading="lazy"
-          />
-          <span className="introduction__annotation" aria-hidden="true">
-            {content.annotation}
-          </span>
-        </figure>
+        <IntroductionImage annotation={content.annotation} />
         <p className="introduction__caption">{content.captionResponsive}</p>
         <p className="introduction__capabilities">{content.capabilities}</p>
         <a className="introduction__cta" href="#about">

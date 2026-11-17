@@ -28,6 +28,44 @@
     "annotation": "MADE FOR THE MOMENT.",
     "captionResponsive": "TEMPORARY IMAGE — PRODUCTION / EVENT DETAIL"
   },
+  "services": {
+    "label": "OUR SERVICES",
+    "heading": "WHAT WE DO.",
+    "bodyDesktop": "We bring creative direction, event management, and production together in one integrated team.",
+    "bodyCompact": "Creative direction, event management, and production — brought together by one team.",
+    "explore": "EXPLORE",
+    "detail": {
+      "openDetails": "View service details",
+      "whatWeDo": "WHAT WE DO",
+      "close": "CLOSE"
+    },
+    "items": [
+      {
+        "title": "EVENT CONCEPT & CREATIVE DIRECTION",
+        "descriptionDesktop": "We develop the concept, creative vision, and audience journey behind every event.",
+        "descriptionCompact": "We develop the concept, creative vision, and audience journey behind every event.",
+        "capabilities": ["Concept development", "Creative vision", "Audience journey"]
+      },
+      {
+        "title": "EVENT MANAGEMENT & PRODUCTION",
+        "descriptionDesktop": "We manage every stage of the event, coordinating people, schedules, partners, and execution.",
+        "descriptionCompact": "We manage each stage, coordinating people, schedules, partners, and execution.",
+        "capabilities": ["People coordination", "Schedules", "Partners", "Execution"]
+      },
+      {
+        "title": "TECHNICAL PRODUCTION",
+        "descriptionDesktop": "We oversee technical planning, infrastructure, logistics, and production requirements to ensure everything works seamlessly.",
+        "descriptionCompact": "We oversee technical planning, infrastructure, logistics, and production requirements.",
+        "capabilities": ["Technical planning", "Infrastructure", "Logistics", "Production requirements"]
+      },
+      {
+        "title": "STAGE, LIGHTING & AUDIO-VISUAL",
+        "descriptionDesktop": "We bring the experience to life through stage design, lighting, sound, and visual production.",
+        "descriptionCompact": "We bring each experience to life through stage design, lighting, sound, and visuals.",
+        "capabilities": ["Stage design", "Lighting", "Sound", "Visual production"]
+      }
+    ]
+  },
   "navigation": {
     "label": "Primary navigation",
     "menuHeading": "Navigation",

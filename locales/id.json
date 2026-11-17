@@ -28,6 +28,44 @@
     "annotation": "DICIPTAKAN UNTUK SETIAP MOMEN.",
     "captionResponsive": "FOTO SEMENTARA — DETAIL PRODUKSI / ACARA"
   },
+  "services": {
+    "label": "LAYANAN KAMI",
+    "heading": "LAYANAN KAMI.",
+    "bodyDesktop": "Satu tim terpadu untuk mengelola setiap tahap acara, dari konsep hingga pelaksanaan.",
+    "bodyCompact": "Satu tim terpadu, dari konsep hingga pelaksanaan acara.",
+    "explore": "JELAJAHI",
+    "detail": {
+      "openDetails": "Lihat detail layanan",
+      "whatWeDo": "APA YANG KAMI LAKUKAN",
+      "close": "TUTUP"
+    },
+    "items": [
+      {
+        "title": "KONSEP ACARA & ARAHAN KREATIF",
+        "descriptionDesktop": "Kami mengembangkan konsep, visi kreatif, dan perjalanan audiens di balik setiap acara.",
+        "descriptionCompact": "Kami mengembangkan konsep, visi kreatif, dan perjalanan audiens.",
+        "capabilities": ["Pengembangan konsep acara", "Visi kreatif", "Perjalanan audiens"]
+      },
+      {
+        "title": "MANAJEMEN ACARA",
+        "descriptionDesktop": "Kami mengelola setiap tahapan acara, mulai dari koordinasi tim, jadwal, mitra, hingga pelaksanaan.",
+        "descriptionCompact": "Kami mengelola tim, jadwal, mitra, dan pelaksanaan acara.",
+        "capabilities": ["Koordinasi tim", "Jadwal", "Mitra", "Pelaksanaan"]
+      },
+      {
+        "title": "PRODUKSI TEKNIS",
+        "descriptionDesktop": "Kami menangani perencanaan teknis, infrastruktur, logistik, dan kebutuhan produksi agar seluruh elemen berjalan selaras.",
+        "descriptionCompact": "Kami menangani perencanaan teknis, infrastruktur, dan logistik.",
+        "capabilities": ["Perencanaan teknis", "Infrastruktur", "Logistik", "Kebutuhan produksi"]
+      },
+      {
+        "title": "PANGGUNG, PENCAHAYAAN & AUDIO-VISUAL",
+        "descriptionDesktop": "Kami menghidupkan pengalaman melalui desain panggung, pencahayaan, tata suara, dan produksi visual.",
+        "descriptionCompact": "Kami menghadirkan desain panggung, pencahayaan, tata suara, dan visual.",
+        "capabilities": ["Desain panggung", "Pencahayaan", "Tata suara", "Produksi visual"]
+      }
+    ]
+  },
   "navigation": {
     "label": "Navigasi utama",
     "menuHeading": "Navigasi",
