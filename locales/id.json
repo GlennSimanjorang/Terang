@@ -1,5 +1,6 @@
 {
   "homeLabel": "Beranda",
+  "headerCta": "HUBUNGI KAMI",
   "hero": {
     "eyebrow": "PENYELENGGARA ACARA TERPADU",
     "bodyDesktop": "Dari arahan kreatif dan manajemen acara hingga produksi teknis, kami menyatukan setiap elemen untuk menghadirkan pengalaman acara yang istimewa.",
@@ -14,6 +15,18 @@
     "annotationMobile": "CAHAYA / MANUSIA",
     "captionDesktop": "PLACEHOLDER FOTO / GANTI DENGAN FOTO RESMI TERANG",
     "captionResponsive": "FOTO SEMENTARA — GANTI DENGAN FOTO HERO RESMI TERANG"
+  },
+  "introduction": {
+    "label": "LEBIH DARI SEKADAR ACARA",
+    "headingFirst": "SEBUAH",
+    "headingSecond": "PENGALAMAN.",
+    "bodyDesktop": "TERANG menyatukan pemikiran kreatif, perencanaan strategis, dan keahlian teknis untuk mewujudkan ide menjadi pengalaman yang lancar dan berkesan.",
+    "bodyTablet": "TERANG menyatukan pemikiran kreatif, perencanaan strategis, dan keahlian teknis untuk mewujudkan ide menjadi pengalaman yang lancar dan berkesan.",
+    "bodyMobile": "TERANG menyatukan ide, strategi, dan keahlian teknis untuk menghadirkan pengalaman acara yang berkesan.",
+    "capabilities": "KONSEP / PERENCANAAN / PRODUKSI / EKSEKUSI TEKNIS / OPERASIONAL LAPANGAN",
+    "cta": "KENALI TERANG",
+    "annotation": "DICIPTAKAN UNTUK SETIAP MOMEN.",
+    "captionResponsive": "FOTO SEMENTARA — DETAIL PRODUKSI / ACARA"
   },
   "navigation": {
     "label": "Navigasi utama",

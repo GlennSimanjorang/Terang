@@ -1,5 +1,6 @@
 import { Header } from "@/components/layout/Header";
 import { Hero } from "@/sections/Hero";
+import { Introduction } from "@/sections/Introduction";
 import { getDictionary } from "@/lib/i18n";
 import { isLocale } from "@/types/i18n";
 import { notFound } from "next/navigation";
@@ -19,7 +20,7 @@ export default async function HomePage({ params }: PageProps) {
       <Header locale={locale} dictionary={dictionary} />
       <main id="main-content" className="navigation-stage">
         <Hero locale={locale} content={dictionary.hero} />
-        <span id="introduction" className="hero__introduction-anchor" aria-hidden="true" />
+        <Introduction locale={locale} content={dictionary.introduction} />
         {dictionary.navigation.items.map((item) => (
           <section
             key={item.id}

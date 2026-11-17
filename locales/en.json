@@ -1,5 +1,6 @@
 {
   "homeLabel": "Home",
+  "headerCta": "LET'S TALK",
   "hero": {
     "eyebrow": "FULL-SERVICE EVENT ORGANIZER",
     "bodyDesktop": "From creative direction and event management to technical production, we bring every element together to create exceptional event experiences.",
@@ -14,6 +15,18 @@
     "annotationMobile": "LIGHT / PEOPLE",
     "captionDesktop": "IMAGE PLACEHOLDER / REPLACE WITH APPROVED TERANG PHOTOGRAPHY",
     "captionResponsive": "TEMPORARY IMAGE — REPLACE WITH APPROVED TERANG HERO PHOTOGRAPHY"
+  },
+  "introduction": {
+    "label": "MORE THAN AN EVENT",
+    "headingFirst": "AN",
+    "headingSecond": "EXPERIENCE.",
+    "bodyDesktop": "TERANG brings creative thinking, strategic planning, and technical expertise together to transform ideas into seamless, memorable experiences.",
+    "bodyTablet": "TERANG brings creative thinking, strategic planning, and technical expertise together to create seamless, memorable experiences.",
+    "bodyMobile": "TERANG brings creative thinking, strategic planning, and technical expertise together to create seamless, memorable experiences.",
+    "capabilities": "CREATIVE DIRECTION / EVENT PLANNING / PRODUCTION / TECHNICAL DELIVERY / ON-SITE OPERATIONS",
+    "cta": "DISCOVER TERANG",
+    "annotation": "MADE FOR THE MOMENT.",
+    "captionResponsive": "TEMPORARY IMAGE — PRODUCTION / EVENT DETAIL"
   },
   "navigation": {
     "label": "Primary navigation",
