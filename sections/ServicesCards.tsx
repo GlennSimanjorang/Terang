@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { LayoutGroup, motion, useReducedMotion } from "motion/react";
+import { AnimatePresence, LayoutGroup, motion, useReducedMotion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import { ServicesDetailModal } from "@/sections/ServicesDetailModal";
 import type { getDictionary } from "@/lib/i18n";
@@ -36,7 +36,6 @@ export function ServicesCards({ content, locale }: ServicesCardsProps) {
 
   function closeModal() {
     setSelectedIndex(null);
-    requestAnimationFrame(() => triggerRef.current?.focus());
   }
 
   return (
@@ -72,18 +71,26 @@ export function ServicesCards({ content, locale }: ServicesCardsProps) {
           </article>
         ))}
       </div>
-      {selected && selectedIndex !== null && (
-        <ServicesDetailModal
-          locale={locale}
-          service={selected}
-          image={serviceImages[selectedIndex]}
-          imageLayoutId={shareImage ? `service-image-${selectedIndex}` : undefined}
-          number={String(selectedIndex + 1).padStart(2, "0")}
-          sectionLabel={content.label}
-          labels={content.detail}
-          onClose={closeModal}
-        />
-      )}
+      {/*
+       * AnimatePresence intercepts the unmount so the modal's exit animations
+       * (backdrop fade, panel background fade, layoutId image flight back to card)
+       * fully complete before the <dialog> is removed from the DOM.
+       */}
+      <AnimatePresence onExitComplete={() => triggerRef.current?.focus()}>
+        {selected && selectedIndex !== null && (
+          <ServicesDetailModal
+            key={selectedIndex}
+            locale={locale}
+            service={selected}
+            image={serviceImages[selectedIndex]}
+            imageLayoutId={shareImage ? `service-image-${selectedIndex}` : undefined}
+            number={String(selectedIndex + 1).padStart(2, "0")}
+            sectionLabel={content.label}
+            labels={content.detail}
+            onClose={closeModal}
+          />
+        )}
+      </AnimatePresence>
     </LayoutGroup>
   );
 }

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { HeroMedia } from "@/sections/HeroMedia";
 import type { getDictionary } from "@/lib/i18n";
 import type { Locale } from "@/types/i18n";
 
@@ -14,35 +14,12 @@ export function Hero({ locale, content }: HeroProps) {
         <p className="hero__eyebrow">{content.eyebrow}</p>
         <span className="hero__media-label">{content.mediaLabel}</span>
 
-        <figure className="hero__media">
-          <picture>
-            <source
-              media="(max-width: 480px)"
-              srcSet="/assets/hero/terang-hero-placeholder-mobile.webp"
-            />
-            <source
-              media="(max-width: 900px)"
-              srcSet="/assets/hero/terang-hero-placeholder-tablet.webp"
-            />
-            <Image
-              src="/assets/hero/terang-hero-placeholder-desktop.webp"
-              alt={content.imageAlt}
-              width={1280}
-              height={1024}
-              sizes="(max-width: 480px) calc(100vw - 40px), (max-width: 900px) calc(100vw - 64px), 600px"
-              quality={82}
-              loading="eager"
-              fetchPriority="high"
-            />
-          </picture>
-          <span className="hero__annotation" aria-hidden="true">
-            <span className="hero__annotation-desktop">{content.annotationDesktop}</span>
-            <span className="hero__annotation-tablet">{content.annotationTablet}</span>
-            <span className="hero__annotation-mobile">{content.annotationMobile}</span>
-          </span>
-          <span className="hero__beam hero__beam--one" aria-hidden="true" />
-          <span className="hero__beam hero__beam--two" aria-hidden="true" />
-        </figure>
+        <HeroMedia
+          imageAlt={content.imageAlt}
+          annotationDesktop={content.annotationDesktop}
+          annotationTablet={content.annotationTablet}
+          annotationMobile={content.annotationMobile}
+        />
 
         <p className="hero__caption hero__caption--desktop">{content.captionDesktop}</p>
         <div className="hero__copy">

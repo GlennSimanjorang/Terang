@@ -11,9 +11,10 @@ type Dictionary = ReturnType<typeof getDictionary>;
 type MobileMenuProps = Readonly<{
   locale: Locale;
   dictionary: Dictionary;
+  activeId: string;
 }>;
 
-export function MobileMenu({ locale, dictionary }: MobileMenuProps) {
+export function MobileMenu({ locale, dictionary, activeId }: MobileMenuProps) {
   const [isOpen, setIsOpen] = useState(false);
   const dialogRef = useRef<HTMLDialogElement>(null);
   const firstLinkRef = useRef<HTMLAnchorElement>(null);
@@ -89,6 +90,7 @@ export function MobileMenu({ locale, dictionary }: MobileMenuProps) {
                     <a
                       ref={index === 0 ? firstLinkRef : undefined}
                       href={`#${item.id}`}
+                      aria-current={activeId === item.id ? "location" : undefined}
                       onClick={() => setIsOpen(false)}
                     >
                       <span className="mobile-menu__number" aria-hidden="true">

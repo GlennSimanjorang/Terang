@@ -44,6 +44,8 @@ export default async function HomePage({ params }: PageProps) {
         ))}
       </main>
       <Footer locale={locale} dictionary={dictionary} />
+
+
     </>
   );
 }

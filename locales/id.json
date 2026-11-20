@@ -142,9 +142,9 @@
     "openMenu": "Buka menu navigasi",
     "closeMenu": "Tutup menu navigasi",
     "items": [
-      { "id": "work", "label": "Karya" },
-      { "id": "services", "label": "Layanan" },
       { "id": "about", "label": "Tentang" },
+      { "id": "services", "label": "Layanan" },
+      { "id": "work", "label": "Karya" },
       { "id": "contact", "label": "Kontak" }
     ],
     "tagline": "DICIPTAKAN UNTUK SETIAP MOMEN."
